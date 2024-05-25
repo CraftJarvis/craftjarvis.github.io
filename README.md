@@ -1,4 +1,4 @@
-# Homepage for Matrix Org
+# Homepage for CraftJarvis Org
 
 ## How to add content
 
