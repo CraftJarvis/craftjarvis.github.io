@@ -49,7 +49,7 @@ _BIGAI_
 
 </div>
 
-## Contributions
+## Contributors
 
 <div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
 
