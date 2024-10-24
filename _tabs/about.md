@@ -25,12 +25,12 @@ _BIGAI_
 
 </div>
 
-## Contributors
+## Contributors -->
 
-<!-- <div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
+<div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
 
 ![Zihao Wang](/assets/img/contributors/WangZihao.png){: .no-popup .logo width="75" }
-_[Zihao Wang](https://zhwang4ai.github.io/)_
+_Zihao Wang_
 
 ![Shaofei Cai](/assets/img/contributors/CaiShaofei.png){: .no-popup .logo width="75" }
 _Shaofei Cai_
@@ -53,40 +53,5 @@ _Xiaojian Ma_
 ![Yitao Liang](/assets/img/contributors/LiangYitao.png){: .no-popup .logo width="75" }
 _Yitao Liang_
 
-</div> -->
-
-
-## Contributors
-
-<div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
-
-<div class="contributor">
-  <a href="https://zhwang4ai.github.io/">
-    <img src="/assets/img/contributors/WangZihao.png" alt="Zihao Wang" class="no-popup logo" width="75" />
-    <p>Zihao Wang</p>
-  </a>
 </div>
 
-<div class="contributor">
-  <img src="/assets/img/contributors/CaiShaofei.png" alt="Shaofei Cai" class="no-popup logo" width="75" />
-  <p>Shaofei Cai</p>
-</div>
-
-<div class="contributor">
-  <img src="/assets/img/contributors/LinHaowei.png" alt="Haowei Lin" class="no-popup logo" width="75" />
-  <p>Haowei Lin</p>
-</div>
-
-<div class="contributor">
-  <img src="/assets/img/contributors/MuZhancun.png" alt="Zhancun Mu" class="no-popup logo" width="75" />
-  <p>Zhancun Mu</p>
-</div>
-
-<div class="contributor">
-  <img src="/assets/img/contributors/LianKewei.png" alt="Kewei Lian" class="no-popup logo" width="75" />
-  <p>Kewei Lian</p>
-</div>
-
-<!-- Continue for the rest of the contributors -->
-
-</div>
