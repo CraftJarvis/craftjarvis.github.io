@@ -35,8 +35,8 @@ _LLM360_
 
 <div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
 
-![CraftJarvis](/assets/img/CraftJarvis-icon.png){: .no-popup .logo width="75" }
-_CraftJarvis_
+<!-- ![CraftJarvis](/assets/img/CraftJarvis-icon.png){: .no-popup .logo width="75" }
+_CraftJarvis_ -->
 
 ![PKU](/assets/img/PKU-logo.png){: .no-popup .logo width="75" }
 _PKU_
@@ -54,10 +54,19 @@ _BIGAI_
 <div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
 
 ![Zihao Wang](/assets/img/contributors/WangZihao.png){: .no-popup .logo width="75" }
-_Zihao Wang_
+[_Zihao Wang_](https://zhwang4ai.github.io/)
 
 ![Shaofei Cai](/assets/img/contributors/CaiShaofei.png){: .no-popup .logo width="75" }
 _Shaofei Cai_
+
+![Haowei Lin](/assets/img/contributors/LinHaowei.png){: .no-popup .logo width="75" }
+_Haowei Lin_
+
+![Zhancun Mu](/assets/img/contributors/MuZhancun.png){: .no-popup .logo width="75" }
+_Zhancun Mu_
+
+![Kewei Lian](/assets/img/contributors/LianKewei.png){: .no-popup .logo width="75" }
+_Kewei Lian_
 
 ![Anji Liu](/assets/img/contributors/LiuAnji.png){: .no-popup .logo width="75" }
 _Anji Liu_
