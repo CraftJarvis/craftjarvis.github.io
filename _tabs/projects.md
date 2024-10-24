@@ -7,7 +7,7 @@ toc: true
 ---
 
 {% include embed/project.html title='ROCKET-1'
-                              image='/assets/img/projects/steve.png'
+                              image='/assets/img/projects/rocket_art.png'
                               lqip=''
                               content='ROCKET- 1: Master Open-World Interaction with Visual-Temporal Context Prompting'
                               url='https://craftjarvis.github.io/ROCKET-1/' %}
@@ -25,7 +25,7 @@ toc: true
                                url='https://craftjarvis.github.io/JARVIS-1/' %}
 
 {% include embed/project.html title='GROOT'
-                              image='/assets/img/projects/steve.png'
+                              image='/assets/img/projects/groot_art.png'
                               lqip=''
                               content='GROOT: Learning to Follow Instructions by Watching Gameplay Videos'
                               url='https://craftjarvis.github.io/GROOT/' %}
