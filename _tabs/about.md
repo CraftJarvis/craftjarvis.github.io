@@ -54,7 +54,7 @@ _BIGAI_
 <div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
 
 ![Zihao Wang](/assets/img/contributors/WangZihao.png){: .no-popup .logo width="75" }
-[_Zihao Wang_](https://zhwang4ai.github.io/)
+_[Zihao Wang](https://zhwang4ai.github.io/)_
 
 ![Shaofei Cai](/assets/img/contributors/CaiShaofei.png){: .no-popup .logo width="75" }
 _Shaofei Cai_
