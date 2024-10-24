@@ -7,6 +7,15 @@ panel_includes:
   - toc
 ---
 
+#### ROCKET-1: Interact with Open Worlds by Prompting in Visual-Temporal Context
+[Shaofei Cai](https://phython96.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), Kewei Lian, Zhancun Mu, [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Anji Liu](https://liuanji.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
+**arXiv** [[Project]](https://craftjarvis.github.io/ROCKET-1/) [[Paper]](https://arxiv.org/pdf/2410.17856) [[Code]](https://github.com/CraftJarvis/ROCKET-1) 
+
+#### OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents
+Zihao Wang, Shaofei Cai, Zhancun Mu, Haowei Lin, Ceyao Zhang, Xuejie Liu, Qing Li, Anji Liu, Xiaojian Ma, Yitao Liang
+[Zihao Wang](https://zhwang4ai.github.io/), [Shaofei Cai](https://phython96.github.io/), Zhancun Mu, Haowei Lin, Ceyao Zhang, Xuejie Liu, Qing Li, [Anji Liu](https://liuanji.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
+**NeurIPS 2024** [[Project]](https://craftjarvis.github.io/OmniJARVIS/) [[Paper]](https://arxiv.org/pdf/2407.00114.pdf) [[Code]](https://github.com/CraftJarvis/OmniJARVIS) 
+
 #### JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models
 [Zihao Wang](https://zhwang4ai.github.io/), [Shaofei Cai](https://phython96.github.io/), [Anji Liu](https://liuanji.github.io/), Yonggang Jin, Jinbing Hou, Bowei Zhang, Haowei Lin, Zhaofeng He, Zilong Zheng, Yaodong Yang, [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **arXiv** [[Project]](https://craftjarvis.github.io/JARVIS-1/) [[Paper]](https://arxiv.org/pdf/2311.05997.pdf) [[Code]](https://github.com/CraftJarvis/JARVIS1)  [[Twitter]](https://twitter.com/jeasinema/status/1723900032653643796) [[Media]](https://mp.weixin.qq.com/s/4SyX4QCdu9rBptRvOQIwXg)
