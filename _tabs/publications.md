@@ -12,7 +12,6 @@ panel_includes:
 **arXiv** [[Project]](https://craftjarvis.github.io/ROCKET-1/) [[Paper]](https://arxiv.org/pdf/2410.17856) [[Code]](https://github.com/CraftJarvis/ROCKET-1) 
 
 #### OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents
-Zihao Wang, Shaofei Cai, Zhancun Mu, Haowei Lin, Ceyao Zhang, Xuejie Liu, Qing Li, Anji Liu, Xiaojian Ma, Yitao Liang
 [Zihao Wang](https://zhwang4ai.github.io/), [Shaofei Cai](https://phython96.github.io/), Zhancun Mu, Haowei Lin, Ceyao Zhang, Xuejie Liu, Qing Li, [Anji Liu](https://liuanji.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **NeurIPS 2024** [[Project]](https://craftjarvis.github.io/OmniJARVIS/) [[Paper]](https://arxiv.org/pdf/2407.00114.pdf) [[Code]](https://github.com/CraftJarvis/OmniJARVIS) 
 
