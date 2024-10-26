@@ -35,6 +35,9 @@ _Haowei Lin_
 ![Kewei Lian](/assets/img/contributors/LianKewei.png){: .no-popup .logo width="75" }
 _Kewei Lian_
 
+![Bowei Zhang](/assets/img/contributors/ZhangBowei.png){: .no-popup .logo width="75" }
+_Bowei Zhang_
+
 ![Shaofei Cai](/assets/img/contributors/CaiShaofei.png){: .no-popup .logo width="75" }
 _Shaofei Cai_
 
