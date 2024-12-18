@@ -27,10 +27,6 @@ panel_includes:
 [Shaofei Cai](https://phython96.github.io/), Bowei Zhang, [Zihao Wang](https://zhwang4ai.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Anji Liu](https://web.cs.ucla.edu/~yliang/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **ICLR 2024 (Spotlight)** [[Project]](https://craftjarvis.github.io/GROOT/) [[Paper]](https://arxiv.org/pdf/2310.08235.pdf) [[Code]](https://github.com/CraftJarvis/GROOT) [[Twitter]](https://twitter.com/jeasinema/status/1712526192665047493) [[Media]](https://mp.weixin.qq.com/s/IqIRxFYDpCi3_Iy1FUg9DQ)
 
-#### RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
-[Zihao Wang](https://zhwang4ai.github.io/), [Anji Liu](https://liuanji.github.io/), [Haowei Lin](https://linhaowei1.github.io/), [Jiaqi Li](https://scholar.google.com.hk/citations?user=C4Z2-rsAAAAJ&hl=zh-CN), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
-**arXiv** [[Project]](https://craftjarvis.github.io/RAT) [[Demo]](https://huggingface.co/spaces/jeasinema/RAT) [[Paper]](https://arxiv.org/pdf/2403.05313.pdf) [[Code]](https://github.com/CraftJarvis/RAT) [[Twitter]](https://x.com/AndyLin2001/status/1767075865127719101?s=20) 
-
 #### MCU: A Task-centric Framework for Open-ended Agent Evaluation in Minecraft
 [Haowei Lin](https://linhaowei1.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), [Jianzhu Ma](https://majianzhu.com/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **arXiv** [[Paper]](https://arxiv.org/pdf/2310.08367.pdf) [[Code]](https://github.com/CraftJarvis/MCU) [[Benchmark]](https://github.com/CraftJarvis/MC-TextWorld)
