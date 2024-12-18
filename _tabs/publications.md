@@ -17,11 +17,11 @@ panel_includes:
 
 #### JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models
 [Zihao Wang](https://zhwang4ai.github.io/), [Shaofei Cai](https://phython96.github.io/), [Anji Liu](https://liuanji.github.io/), [Yonggang Jin](https://scholar.google.com/citations?user=mLLA1P0AAAAJ&hl=en), Jinbing Hou, Bowei Zhang, [Haowei Lin](https://linhaowei1.github.io/), Zhaofeng He, [Zilong Zheng](https://zilongzheng.github.io/), [Yaodong Yang](https://www.yangyaodong.com/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
-**arXiv** [[Project]](https://craftjarvis.github.io/JARVIS-1/) [[Paper]](https://arxiv.org/pdf/2311.05997.pdf) [[Code]](https://github.com/CraftJarvis/JARVIS1)  [[Twitter]](https://twitter.com/jeasinema/status/1723900032653643796) [[Media]](https://mp.weixin.qq.com/s/4SyX4QCdu9rBptRvOQIwXg)
+**T-PAMI 2024** [[Project]](https://craftjarvis.github.io/JARVIS-1/) [[Paper]](https://arxiv.org/pdf/2311.05997.pdf) [[Code]](https://github.com/CraftJarvis/JARVIS1)  [[Twitter]](https://twitter.com/jeasinema/status/1723900032653643796) [[Media]](https://mp.weixin.qq.com/s/4SyX4QCdu9rBptRvOQIwXg)
 
 #### Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents
 [Zihao Wang](https://zhwang4ai.github.io/), [Shaofei Cai](https://phython96.github.io/), [Anji Liu](https://liuanji.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
-**NeurIPS 2023** [[Paper]](https://arxiv.org/pdf/2302.01560.pdf) [[Code]](https://github.com/CraftJarvis/MC-Planner) [[Twitter]](https://twitter.com/jeasinema/status/1622428535897067521)
+**NeurIPS 2023 (ICML 2023 TEACH Best Paper Award)** [[Paper]](https://arxiv.org/pdf/2302.01560.pdf) [[Code]](https://github.com/CraftJarvis/MC-Planner) [[Twitter]](https://twitter.com/jeasinema/status/1622428535897067521)
 
 #### GROOT: Learning to Follow Instructions by Watching Gameplay Videos
 [Shaofei Cai](https://phython96.github.io/), Bowei Zhang, [Zihao Wang](https://zhwang4ai.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Anji Liu](https://web.cs.ucla.edu/~yliang/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
