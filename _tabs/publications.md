@@ -8,11 +8,11 @@ panel_includes:
 ---
 
 #### JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse
-[Muyao Li*](https://muyaoli-jimo.github.io), [Zihao Wang*](https://zhwang4ai.github.io/), [Kaichen He](https://zhwang4ai.github.io/), [Xiaojian Ma](https://jeasinema.github.io), [Yitao Liang](https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en)\
+[Muyao Li](https://muyaoli-jimo.github.io), [Zihao Wang](https://zhwang4ai.github.io/), [Kaichen He](https://zhwang4ai.github.io/), [Xiaojian Ma](https://jeasinema.github.io), [Yitao Liang](https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en)\
 **ACL 2025** [[Project]](https://craftjarvis.github.io/JarvisVLA/) [[Paper]](https://craftjarvis.github.io/JarvisVLA/files/JARVIS_VLA_paper.pdf) [[Code]](https://github.com/CraftJarvis/JarvisVLA)
 
 #### MCU: A Task-centric Framework for Open-ended Agent Evaluation in Minecraft
-[Xinyue Zheng*](https://craftjarvis.github.io/MCU/), [Haowei Lin*](https://linhaowei1.github.io/), [Kaichen He](https://craftjarvis.github.io/MCU/), [Zihao Wang](https://zhwang4ai.github.io/), [Zilong Zheng](https://craftjarvis.github.io/MCU/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
+[Xinyue Zheng](https://craftjarvis.github.io/MCU/), [Haowei Lin](https://linhaowei1.github.io/), [Kaichen He](https://craftjarvis.github.io/MCU/), [Zihao Wang](https://zhwang4ai.github.io/), [Zilong Zheng](https://craftjarvis.github.io/MCU/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **ICML 2025 (Spotlight)** [[Project]](https://craftjarvis.github.io/MCU/) [[Paper]](https://arxiv.org/pdf/2310.08367.pdf) [[Code]](https://github.com/CraftJarvis/MCU)
 
 #### ROCKET-1: Master Open-World Interaction with Visual-Temporal Context Prompting
