@@ -17,7 +17,7 @@ panel_includes:
 
 #### ROCKET-1: Master Open-World Interaction with Visual-Temporal Context Prompting
 [Shaofei Cai](https://phython96.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), Kewei Lian, [Zhancun Mu](https://zhancunmu.owlstown.net/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Anji Liu](https://liuanji.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
-**arXiv** [[Project]](https://craftjarvis.github.io/ROCKET-1/) [[Paper]](https://arxiv.org/pdf/2410.17856) [[Code]](https://github.com/CraftJarvis/ROCKET-1) 
+**CVPR 2025** [[Project]](https://craftjarvis.github.io/ROCKET-1/) [[Paper]](https://arxiv.org/pdf/2410.17856) [[Code]](https://github.com/CraftJarvis/ROCKET-1) 
 
 #### OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents
 [Zihao Wang](https://zhwang4ai.github.io/), [Shaofei Cai](https://phython96.github.io/), [Zhancun Mu](https://zhancunmu.owlstown.net/), [Haowei Lin](https://linhaowei1.github.io/), [Ceyao Zhang](https://scholar.google.com/citations?user=OadTFGMAAAAJ&hl=zh-CN&oi=ao), [Xuejie Liu](https://scholar.google.com/citations?user=vxqpWKUAAAAJ&hl=zh-CN), [Qing Li](https://scholar.google.com.sg/citations?user=iwdFZBEAAAAJ&hl=en), [Anji Liu](https://liuanji.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
