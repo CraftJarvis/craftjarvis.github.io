@@ -6,6 +6,18 @@ order: 2
 toc: true
 ---
 
+{% include embed/project.html title='JARVIS-VLA'
+                              image='/assets/img/projects/steve.png'
+                              lqip=''
+                              content='JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse'
+                              url='https://craftjarvis.github.io/JarvisVLA/' %}
+
+{% include embed/project.html title='MCU'
+                              image='/assets/img/projects/steve.png'
+                              lqip=''
+                              content='MCU: An Evaluation Framework for Open-Ended Game Agents'
+                              url='https://craftjarvis.github.io/MCU/' %}
+
 {% include embed/project.html title='ROCKET-1'
                               image='/assets/img/projects/rocket_art.png'
                               lqip=''

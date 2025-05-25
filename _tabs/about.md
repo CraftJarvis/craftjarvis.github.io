@@ -29,20 +29,29 @@ _BIGAI_
 
 <div class="fit-content grid grid-cols-5 m-auto gap-4" markdown="1">
 
-![Haowei Lin](/assets/img/contributors/LinHaowei.png){: .no-popup .logo width="75" }
-_Haowei Lin_
+![Muyao Li](/assets/img/contributors/LiMuyao.png){: .no-popup .logo width="75" }
+_Muyao Li_
 
-![Kewei Lian](/assets/img/contributors/LianKewei.png){: .no-popup .logo width="75" }
-_Kewei Lian_
+![Xinyue Zheng](/assets/img/contributors/ZhengXinyue.png){: .no-popup .logo width="75" }
+_Xinyue Zheng_
+
+![Zhancun Mu](/assets/img/contributors/MuZhancun.png){: .no-popup .logo width="75" }
+_Zhancun Mu_
+
+![Kaichen He](/assets/img/contributors/HeKaichen.png){: .no-popup .logo width="75" }
+_Kaichen He_
 
 ![Bowei Zhang](/assets/img/contributors/ZhangBowei.png){: .no-popup .logo width="75" }
 _Bowei Zhang_
 
+![Kewei Lian](/assets/img/contributors/LianKewei.png){: .no-popup .logo width="75" }
+_Kewei Lian_
+
+![Haowei Lin](/assets/img/contributors/LinHaowei.png){: .no-popup .logo width="75" }
+_Haowei Lin_
+
 ![Shaofei Cai](/assets/img/contributors/CaiShaofei.png){: .no-popup .logo width="75" }
 _Shaofei Cai_
-
-![Zhancun Mu](/assets/img/contributors/MuZhancun.png){: .no-popup .logo width="75" }
-_Zhancun Mu_
 
 ![Zihao Wang](/assets/img/contributors/WangZihao.png){: .no-popup .logo width="75" }
 _Zihao Wang_

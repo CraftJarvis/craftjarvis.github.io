@@ -7,6 +7,14 @@ panel_includes:
   - toc
 ---
 
+#### JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse
+[Muyao Li*](https://muyaoli-jimo.github.io), [Zihao Wang*](https://zhwang4ai.github.io/), [Kaichen He](https://zhwang4ai.github.io/), [Xiaojian Ma](https://jeasinema.github.io), [Yitao Liang](https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en)\
+**ACL 2025** [[Project]](https://craftjarvis.github.io/JarvisVLA/) [[Paper]](https://craftjarvis.github.io/JarvisVLA/files/JARVIS_VLA_paper.pdf) [[Code]](https://github.com/CraftJarvis/JarvisVLA)
+
+#### MCU: A Task-centric Framework for Open-ended Agent Evaluation in Minecraft
+[Xinyue Zheng*](https://craftjarvis.github.io/MCU/), [Haowei Lin*](https://linhaowei1.github.io/), [Kaichen He](https://craftjarvis.github.io/MCU/), [Zihao Wang](https://zhwang4ai.github.io/), [Zilong Zheng](https://craftjarvis.github.io/MCU/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
+**ICML 2025 (Spotlight)** [[Project]](https://craftjarvis.github.io/MCU/) [[Paper]](https://arxiv.org/pdf/2310.08367.pdf) [[Code]](https://github.com/CraftJarvis/MCU)
+
 #### ROCKET-1: Master Open-World Interaction with Visual-Temporal Context Prompting
 [Shaofei Cai](https://phython96.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), Kewei Lian, [Zhancun Mu](https://zhancunmu.owlstown.net/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Anji Liu](https://liuanji.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **arXiv** [[Project]](https://craftjarvis.github.io/ROCKET-1/) [[Paper]](https://arxiv.org/pdf/2410.17856) [[Code]](https://github.com/CraftJarvis/ROCKET-1) 
@@ -26,10 +34,6 @@ panel_includes:
 #### GROOT: Learning to Follow Instructions by Watching Gameplay Videos
 [Shaofei Cai](https://phython96.github.io/), Bowei Zhang, [Zihao Wang](https://zhwang4ai.github.io/), [Xiaojian Ma](https://web.cs.ucla.edu/~xm/), [Anji Liu](https://web.cs.ucla.edu/~yliang/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **ICLR 2024 (Spotlight)** [[Project]](https://craftjarvis.github.io/GROOT/) [[Paper]](https://arxiv.org/pdf/2310.08235.pdf) [[Code]](https://github.com/CraftJarvis/GROOT) [[Twitter]](https://twitter.com/jeasinema/status/1712526192665047493) [[Media]](https://mp.weixin.qq.com/s/IqIRxFYDpCi3_Iy1FUg9DQ)
-
-#### MCU: A Task-centric Framework for Open-ended Agent Evaluation in Minecraft
-[Haowei Lin](https://linhaowei1.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), [Jianzhu Ma](https://majianzhu.com/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
-**arXiv** [[Paper]](https://arxiv.org/pdf/2310.08367.pdf) [[Code]](https://github.com/CraftJarvis/MCU) [[Benchmark]](https://github.com/CraftJarvis/MC-TextWorld)
 
 #### Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction
 Shaofei Cai, Zihao Wang, Xiaojian Ma, Anji Liu, Yitao Liang\
