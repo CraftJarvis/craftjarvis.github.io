@@ -38,6 +38,9 @@ _Xinyue Zheng_
 ![Zhancun Mu](/assets/img/contributors/MuZhancun.png){: .no-popup .logo width="75" }
 _Zhancun Mu_
 
+![Guangyu Zhao](/assets/img/contributors/ZhaoGuangyu.png){: .no-popup .logo width="75" }
+_Guangyu Zhao_
+
 ![Kaichen He](/assets/img/contributors/HeKaichen.png){: .no-popup .logo width="75" }
 _Kaichen He_
 

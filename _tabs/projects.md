@@ -6,6 +6,12 @@ order: 2
 toc: true
 ---
 
+{% include embed/project.html title='PGT'
+                              image='/assets/img/projects/steve.png'
+                              lqip=''
+                              content='Preference Goal Tuning: Post-Training as Latent Control for Frozen Policies'
+                              url='https://craftjarvis.github.io/PGT/' %}
+
 {% include embed/project.html title='JARVIS-VLA'
                               image='/assets/img/projects/steve.png'
                               lqip=''

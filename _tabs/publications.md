@@ -7,6 +7,10 @@ panel_includes:
   - toc
 ---
 
+#### Preference Goal Tuning: Post-Training as Latent Control for Frozen Policies
+[Guangyu Zhao](https://guangyu-zhao.github.io/), [Kewei Lian](https://kevin-lkw.github.io/), Haoxuan Ru, [Borong Zhang](https://zhangborong.com/), [Haowei Lin](https://linhaowei1.github.io/), [Zhancun Mu](https://zhancunmu.owlstown.net/), Haobo Fu, Qiang Fu, [Shaofei Cai](https://phython96.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
+**ICML 2026** [[Project]](https://craftjarvis.github.io/PGT/) [[Paper]](https://arxiv.org/abs/2412.02125) [[Code]](https://github.com/CraftJarvis/PGT)
+
 #### JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse
 [Muyao Li](https://muyaoli-jimo.github.io), [Zihao Wang](https://zhwang4ai.github.io/), [Kaichen He](https://zhwang4ai.github.io/), [Xiaojian Ma](https://jeasinema.github.io), [Yitao Liang](https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en)\
 **ACL 2025** [[Project]](https://craftjarvis.github.io/JarvisVLA/) [[Paper]](https://craftjarvis.github.io/JarvisVLA/files/JARVIS_VLA_paper.pdf) [[Code]](https://github.com/CraftJarvis/JarvisVLA)
