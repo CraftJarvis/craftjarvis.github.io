@@ -9,7 +9,7 @@ panel_includes:
 
 #### Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
 Kaichen He, [Zihao Wang](https://zhwang4ai.github.io/), [Muyao Li](https://muyaoli-jimo.github.io), [Anji Liu](https://liuanji.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
-**CVPR 2026 (Highlight)** [[Paper]](https://arxiv.org/abs/2512.09706) [[Code]](https://github.com/CraftJarvis/OpenHA)
+**CVPR 2026 (Highlight)** [[Project]](https://craftjarvis.github.io/CrossHA/) [[Paper]](https://arxiv.org/abs/2512.09706) [[Code]](https://github.com/CraftJarvis/OpenHA)
 
 #### Preference Goal Tuning: Post-Training as Latent Control for Frozen Policies
 [Guangyu Zhao](https://guangyu-zhao.github.io/), [Kewei Lian](https://kevin-lkw.github.io/), Haoxuan Ru, [Borong Zhang](https://zhangborong.com/), [Haowei Lin](https://linhaowei1.github.io/), [Zhancun Mu](https://zhancunmu.owlstown.net/), Haobo Fu, Qiang Fu, [Shaofei Cai](https://phython96.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\

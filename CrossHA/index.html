@@ -1,0 +1,274 @@
+---
+layout: page
+title: CrossHA
+permalink: /CrossHA/
+description: Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
+image:
+  path: /assets/img/projects/crossha_art.png
+---
+
+<style>
+  .crossha-page {
+    --crossha-ink: #1f2933;
+    --crossha-muted: #5d6874;
+    --crossha-line: #dbe4ed;
+    --crossha-soft: #f6f8fa;
+    --crossha-green: #217a4d;
+    --crossha-blue: #265f9f;
+    color: var(--crossha-ink);
+  }
+
+  .crossha-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.9fr);
+    gap: 2rem;
+    align-items: center;
+    padding: 0.75rem 0 2.5rem;
+    border-bottom: 1px solid var(--crossha-line);
+  }
+
+  .crossha-kicker {
+    margin: 0 0 0.75rem;
+    color: var(--crossha-green);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .crossha-title {
+    margin: 0;
+    font-size: 2.55rem;
+    line-height: 1.12;
+    letter-spacing: 0;
+  }
+
+  .crossha-subtitle {
+    margin: 1rem 0 0;
+    color: var(--crossha-muted);
+    font-size: 1.08rem;
+    line-height: 1.65;
+  }
+
+  .crossha-authors {
+    margin: 1.25rem 0 0;
+    color: var(--crossha-muted);
+    line-height: 1.75;
+  }
+
+  .crossha-authors a,
+  .crossha-resource a {
+    color: var(--crossha-blue);
+  }
+
+  .crossha-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .crossha-button {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    gap: 0.55rem;
+    border: 1px solid var(--crossha-line);
+    border-radius: 6px;
+    padding: 0.65rem 1rem;
+    color: var(--crossha-ink);
+    font-weight: 700;
+    text-decoration: none;
+    background: #fff;
+  }
+
+  .crossha-button:hover {
+    color: var(--crossha-blue);
+    text-decoration: none;
+    border-color: #b9cadb;
+  }
+
+  .crossha-button.primary {
+    color: #fff;
+    border-color: var(--crossha-green);
+    background: var(--crossha-green);
+  }
+
+  .crossha-button.primary:hover {
+    color: #fff;
+    background: #1a633e;
+  }
+
+  .crossha-art {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--crossha-line);
+    border-radius: 8px;
+    box-shadow: 0 18px 44px rgba(32, 48, 68, 0.14);
+  }
+
+  .crossha-art img {
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+  }
+
+  .crossha-section {
+    padding: 2.25rem 0 0;
+  }
+
+  .crossha-section h2 {
+    margin: 0 0 0.9rem;
+    font-size: 1.45rem;
+    letter-spacing: 0;
+  }
+
+  .crossha-section p {
+    color: var(--crossha-muted);
+    line-height: 1.8;
+  }
+
+  .crossha-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .crossha-card,
+  .crossha-resource {
+    border: 1px solid var(--crossha-line);
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+  }
+
+  .crossha-card h3,
+  .crossha-resource h3 {
+    margin: 0 0 0.45rem;
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+
+  .crossha-card p,
+  .crossha-resource p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .crossha-citation {
+    overflow-x: auto;
+    border: 1px solid var(--crossha-line);
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--crossha-soft);
+    color: #26323f;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  @media (max-width: 900px) {
+    .crossha-hero,
+    .crossha-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .crossha-title {
+      font-size: 1.9rem;
+    }
+
+    .crossha-button {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
+
+<div class="crossha-page">
+  <section class="crossha-hero">
+    <div>
+      <p class="crossha-kicker">CVPR 2026 Highlight</p>
+      <h2 class="crossha-title">
+        Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
+      </h2>
+      <p class="crossha-subtitle">A CraftJarvis project for cross-level agentic actions in Minecraft.</p>
+      <p class="crossha-authors">
+        Kaichen He,
+        <a href="https://zhwang4ai.github.io/">Zihao Wang</a>,
+        <a href="https://muyaoli-jimo.github.io">Muyao Li</a>,
+        <a href="https://liuanji.github.io/">Anji Liu</a>,
+        <a href="https://web.cs.ucla.edu/~yliang/">Yitao Liang</a>
+      </p>
+      <div class="crossha-actions" aria-label="Project links">
+        <a class="crossha-button primary" href="https://arxiv.org/abs/2512.09706">
+          <i class="fas fa-file-alt" aria-hidden="true"></i>
+          <span>Paper</span>
+        </a>
+        <a class="crossha-button" href="https://github.com/CraftJarvis/OpenHA">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span>Code</span>
+        </a>
+      </div>
+    </div>
+    <img class="crossha-art" src="/assets/img/projects/crossha_art.png" alt="CrossHA project overview artwork">
+  </section>
+
+  <section class="crossha-section">
+    <h2>Overview</h2>
+    <p>
+      CrossHA studies how to train one agentic model with reinforcement learning
+      to handle cross-level actions in Minecraft. The released implementation is
+      part of the OpenHA codebase, with the CrossAgent folder containing the
+      related training code.
+    </p>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Highlights</h2>
+    <div class="crossha-grid">
+      <div class="crossha-card">
+        <h3>One Model</h3>
+        <p>A unified policy is trained for cross-level agentic actions.</p>
+      </div>
+      <div class="crossha-card">
+        <h3>Reinforcement Learning</h3>
+        <p>The work focuses on RL-based training for embodied Minecraft agents.</p>
+      </div>
+      <div class="crossha-card">
+        <h3>OpenHA Release</h3>
+        <p>Code is released through the CraftJarvis OpenHA repository.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Resources</h2>
+    <div class="crossha-grid">
+      <div class="crossha-resource">
+        <h3>Paper</h3>
+        <p><a href="https://arxiv.org/abs/2512.09706">arXiv:2512.09706</a></p>
+      </div>
+      <div class="crossha-resource">
+        <h3>Code</h3>
+        <p><a href="https://github.com/CraftJarvis/OpenHA">github.com/CraftJarvis/OpenHA</a></p>
+      </div>
+      <div class="crossha-resource">
+        <h3>Team</h3>
+        <p><a href="https://craftjarvis.github.io/">CraftJarvis</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Citation</h2>
+    <pre class="crossha-citation"><code>@inproceedings{he2026crossha,
+  title     = {Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning},
+  author    = {He, Kaichen and Wang, Zihao and Li, Muyao and Liu, Anji and Liang, Yitao},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year      = {2026}
+}</code></pre>
+  </section>
+</div>
