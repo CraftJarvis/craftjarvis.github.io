@@ -6,6 +6,12 @@ order: 2
 toc: true
 ---
 
+{% include embed/project.html title='CrossHA'
+                              image='/assets/img/projects/crossha_art.png'
+                              lqip=''
+                              content='Training one model to master cross-level agentic actions via reinforcement learning'
+                              url='https://arxiv.org/abs/2512.09706' %}
+
 {% include embed/project.html title='PGT'
                               image='/assets/img/projects/steve.png'
                               lqip=''
@@ -49,4 +55,3 @@ toc: true
                               url='https://craftjarvis.github.io/GROOT/' %}
 
             
-

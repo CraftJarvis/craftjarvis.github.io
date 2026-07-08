@@ -7,6 +7,10 @@ panel_includes:
   - toc
 ---
 
+#### Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
+Kaichen He, [Zihao Wang](https://zhwang4ai.github.io/), [Muyao Li](https://muyaoli-jimo.github.io), [Anji Liu](https://liuanji.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
+**CVPR 2026 (Highlight)** [[Paper]](https://arxiv.org/abs/2512.09706) [[Code]](https://github.com/CraftJarvis/OpenHA)
+
 #### Preference Goal Tuning: Post-Training as Latent Control for Frozen Policies
 [Guangyu Zhao](https://guangyu-zhao.github.io/), [Kewei Lian](https://kevin-lkw.github.io/), Haoxuan Ru, [Borong Zhang](https://zhangborong.com/), [Haowei Lin](https://linhaowei1.github.io/), [Zhancun Mu](https://zhancunmu.owlstown.net/), Haobo Fu, Qiang Fu, [Shaofei Cai](https://phython96.github.io/), [Zihao Wang](https://zhwang4ai.github.io/), [Yitao Liang](https://web.cs.ucla.edu/~yliang/)\
 **ICML 2026** [[Project]](https://craftjarvis.github.io/PGT/) [[Paper]](https://arxiv.org/abs/2412.02125) [[Code]](https://github.com/CraftJarvis/PGT)
@@ -42,4 +46,3 @@ panel_includes:
 #### Open-World Multi-Task Control Through Goal-Aware Representation Learning and Adaptive Horizon Prediction
 Shaofei Cai, Zihao Wang, Xiaojian Ma, Anji Liu, Yitao Liang\
 **CVPR 2023** [[Paper]](https://arxiv.org/pdf/2301.10034.pdf) [[Code]](https://github.com/CraftJarvis/MC-Controller)
-
