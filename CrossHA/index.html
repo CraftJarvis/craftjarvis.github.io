@@ -9,26 +9,32 @@ image:
 
 <style>
   .crossha-page {
-    --crossha-ink: #1f2933;
-    --crossha-muted: #5d6874;
+    --crossha-ink: #202833;
+    --crossha-muted: #596575;
     --crossha-line: #dbe4ed;
     --crossha-soft: #f6f8fa;
-    --crossha-green: #217a4d;
-    --crossha-blue: #265f9f;
+    --crossha-paper: #ffffff;
+    --crossha-green: #1f7a4d;
+    --crossha-blue: #295f9f;
+    --crossha-gold: #a36b13;
     color: var(--crossha-ink);
+  }
+
+  .crossha-page a:not(.crossha-button) {
+    color: var(--crossha-blue);
   }
 
   .crossha-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.9fr);
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.88fr);
     gap: 2rem;
     align-items: center;
-    padding: 0.75rem 0 2.5rem;
+    padding: 0.75rem 0 2.25rem;
     border-bottom: 1px solid var(--crossha-line);
   }
 
   .crossha-kicker {
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.8rem;
     color: var(--crossha-green);
     font-size: 0.82rem;
     font-weight: 700;
@@ -38,34 +44,29 @@ image:
 
   .crossha-title {
     margin: 0;
-    font-size: 2.55rem;
-    line-height: 1.12;
+    font-size: 2.45rem;
+    line-height: 1.13;
     letter-spacing: 0;
   }
 
   .crossha-subtitle {
     margin: 1rem 0 0;
     color: var(--crossha-muted);
-    font-size: 1.08rem;
+    font-size: 1.05rem;
     line-height: 1.65;
   }
 
   .crossha-authors {
-    margin: 1.25rem 0 0;
+    margin: 1.15rem 0 0;
     color: var(--crossha-muted);
     line-height: 1.75;
-  }
-
-  .crossha-authors a,
-  .crossha-resource a {
-    color: var(--crossha-blue);
   }
 
   .crossha-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-top: 1.5rem;
+    margin-top: 1.45rem;
   }
 
   .crossha-button {
@@ -79,7 +80,7 @@ image:
     color: var(--crossha-ink);
     font-weight: 700;
     text-decoration: none;
-    background: #fff;
+    background: var(--crossha-paper);
   }
 
   .crossha-button:hover {
@@ -89,17 +90,21 @@ image:
   }
 
   .crossha-button.primary {
-    color: #fff;
+    color: #ffffff;
     border-color: var(--crossha-green);
     background: var(--crossha-green);
   }
 
   .crossha-button.primary:hover {
-    color: #fff;
-    background: #1a633e;
+    color: #ffffff;
+    background: #17613c;
   }
 
-  .crossha-art {
+  .crossha-figure {
+    margin: 0;
+  }
+
+  .crossha-figure img {
     display: block;
     width: 100%;
     border: 1px solid var(--crossha-line);
@@ -107,10 +112,11 @@ image:
     box-shadow: 0 18px 44px rgba(32, 48, 68, 0.14);
   }
 
-  .crossha-art img {
-    display: block;
-    width: 100%;
-    border-radius: 7px;
+  .crossha-figure figcaption {
+    margin-top: 0.65rem;
+    color: var(--crossha-muted);
+    font-size: 0.9rem;
+    line-height: 1.55;
   }
 
   .crossha-section {
@@ -123,9 +129,49 @@ image:
     letter-spacing: 0;
   }
 
+  .crossha-section h3 {
+    margin: 0 0 0.45rem;
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+
   .crossha-section p {
     color: var(--crossha-muted);
-    line-height: 1.8;
+    line-height: 1.78;
+  }
+
+  .crossha-lead {
+    margin-bottom: 0;
+    font-size: 1.02rem;
+  }
+
+  .crossha-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+    margin-top: 1.25rem;
+  }
+
+  .crossha-stat {
+    border: 1px solid var(--crossha-line);
+    border-radius: 8px;
+    padding: 0.95rem;
+    background: var(--crossha-paper);
+  }
+
+  .crossha-stat strong {
+    display: block;
+    color: var(--crossha-green);
+    font-size: 1.55rem;
+    line-height: 1.1;
+  }
+
+  .crossha-stat span {
+    display: block;
+    margin-top: 0.35rem;
+    color: var(--crossha-muted);
+    font-size: 0.9rem;
+    line-height: 1.45;
   }
 
   .crossha-grid {
@@ -135,26 +181,104 @@ image:
     margin-top: 1rem;
   }
 
-  .crossha-card,
-  .crossha-resource {
+  .crossha-card {
     border: 1px solid var(--crossha-line);
     border-radius: 8px;
     padding: 1rem;
-    background: #fff;
+    background: var(--crossha-paper);
   }
 
-  .crossha-card h3,
-  .crossha-resource h3 {
-    margin: 0 0 0.45rem;
-    font-size: 1rem;
-    letter-spacing: 0;
-  }
-
-  .crossha-card p,
-  .crossha-resource p {
+  .crossha-card p {
     margin: 0;
     font-size: 0.95rem;
     line-height: 1.65;
+  }
+
+  .crossha-steps {
+    display: grid;
+    gap: 0.85rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .crossha-step {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+    gap: 0.85rem;
+    align-items: start;
+    border: 1px solid var(--crossha-line);
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--crossha-paper);
+  }
+
+  .crossha-step-number {
+    display: inline-flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: 700;
+    background: var(--crossha-blue);
+  }
+
+  .crossha-step p {
+    margin: 0.2rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .crossha-table-wrap {
+    overflow-x: auto;
+    margin-top: 1rem;
+    border: 1px solid var(--crossha-line);
+    border-radius: 8px;
+  }
+
+  .crossha-table {
+    width: 100%;
+    min-width: 620px;
+    margin: 0;
+    border-collapse: collapse;
+    background: var(--crossha-paper);
+  }
+
+  .crossha-table th,
+  .crossha-table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--crossha-line);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .crossha-table th {
+    color: var(--crossha-ink);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    background: var(--crossha-soft);
+  }
+
+  .crossha-table td {
+    color: var(--crossha-muted);
+    line-height: 1.55;
+  }
+
+  .crossha-table tr:last-child td {
+    border-bottom: 0;
+  }
+
+  .crossha-callout {
+    border-left: 4px solid var(--crossha-gold);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.1rem;
+    background: #fffaf0;
+  }
+
+  .crossha-callout p {
+    margin: 0;
   }
 
   .crossha-citation {
@@ -170,19 +294,24 @@ image:
 
   @media (max-width: 900px) {
     .crossha-hero,
-    .crossha-grid {
+    .crossha-grid,
+    .crossha-stats {
       grid-template-columns: 1fr;
     }
   }
 
   @media (max-width: 520px) {
     .crossha-title {
-      font-size: 1.9rem;
+      font-size: 1.85rem;
     }
 
     .crossha-button {
       width: 100%;
       justify-content: center;
+    }
+
+    .crossha-step {
+      grid-template-columns: 1fr;
     }
   }
 </style>
@@ -194,7 +323,11 @@ image:
       <h2 class="crossha-title">
         Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning
       </h2>
-      <p class="crossha-subtitle">A CraftJarvis project for cross-level agentic actions in Minecraft.</p>
+      <p class="crossha-subtitle">
+        CrossHA trains a single Minecraft agent to choose between heterogeneous
+        action spaces at each step, using reinforcement learning to balance
+        high-level efficiency with low-level precision.
+      </p>
       <p class="crossha-authors">
         Kaichen He,
         <a href="https://zhwang4ai.github.io/">Zihao Wang</a>,
@@ -213,49 +346,197 @@ image:
         </a>
       </div>
     </div>
-    <img class="crossha-art" src="/assets/img/projects/crossha_art.png" alt="CrossHA project overview artwork">
+    <figure class="crossha-figure">
+      <img src="/assets/img/projects/crossha_art.png" alt="CrossHA framework overview">
+      <figcaption>
+        CrossHA learns when to use motion, grounding, raw, language, or latent
+        action spaces instead of relying on a fixed interface throughout a task.
+      </figcaption>
+    </figure>
   </section>
 
   <section class="crossha-section">
-    <h2>Overview</h2>
+    <h2>Abstract</h2>
+    <p class="crossha-lead">
+      Existing native agents are usually tied to one predefined action space:
+      APIs, GUI events, raw mouse and keyboard controls, robot actions, or
+      other specialized interfaces. CrossHA treats the action interface itself
+      as a learned decision. The model is trained to generate valid actions
+      across multiple granularities and to switch between them during a
+      trajectory, choosing coarse actions when they are efficient and fine
+      actions when precision is needed.
+    </p>
     <p>
-      CrossHA studies how to train one agentic model with reinforcement learning
-      to handle cross-level actions in Minecraft. The released implementation is
-      part of the OpenHA codebase, with the CrossAgent folder containing the
-      related training code.
+      The training pipeline combines cold-start supervised fine-tuning,
+      single-turn GRPO for action-space selection, and multi-turn GRPO for
+      long-horizon task completion. Evaluated on more than 800 Minecraft tasks,
+      CrossHA shows stronger generalization and efficiency than fixed-action
+      baselines and hierarchical agents whose switching behavior is not directly
+      optimized.
     </p>
   </section>
 
   <section class="crossha-section">
-    <h2>Highlights</h2>
+    <h2>Key Numbers</h2>
+    <div class="crossha-stats">
+      <div class="crossha-stat">
+        <strong>800+</strong>
+        <span>OpenHA Minecraft tasks used for broad evaluation</span>
+      </div>
+      <div class="crossha-stat">
+        <strong>30</strong>
+        <span>online RL training tasks, balanced across three task families</span>
+      </div>
+      <div class="crossha-stat">
+        <strong>94.7%</strong>
+        <span>reported peak success on the Mine Blocks category</span>
+      </div>
+      <div class="crossha-stat">
+        <strong>83.3%</strong>
+        <span>reported peak success on the Craft Items category</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Method Overview</h2>
+    <p>
+      CrossHA formulates heterogeneous action selection as part of the policy
+      rather than as an external rule. The policy receives visual observations
+      and task instructions, then emits both an action space and the action
+      content that should be executed by the corresponding controller.
+    </p>
+    <ol class="crossha-steps">
+      <li class="crossha-step">
+        <span class="crossha-step-number">1</span>
+        <div>
+          <h3>Mixed-Space SFT</h3>
+          <p>
+            A cold-start model learns the syntax and semantics of multiple
+            action formats from a balanced mixture of trajectories, establishing
+            basic competence across raw, grounding, motion, language, and
+            latent-style action spaces.
+          </p>
+        </div>
+      </li>
+      <li class="crossha-step">
+        <span class="crossha-step-number">2</span>
+        <div>
+          <h3>Single-Turn RL</h3>
+          <p>
+            Diversity-enhanced data collection exposes several valid action
+            choices for the same state. GRPO then rewards actions that parse to
+            the correct raw behavior, letting the model learn which interface is
+            most reliable for the immediate context.
+          </p>
+        </div>
+      </li>
+      <li class="crossha-step">
+        <span class="crossha-step-number">3</span>
+        <div>
+          <h3>Multi-Turn RL</h3>
+          <p>
+            The final stage optimizes full trajectories with sparse task
+            success rewards and a generation-cost penalty. This pushes CrossHA
+            to complete long-horizon tasks while preferring concise high-level
+            actions whenever they are dependable.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Results</h2>
+    <div class="crossha-table-wrap">
+      <table class="crossha-table">
+        <thead>
+          <tr>
+            <th>Finding</th>
+            <th>Evidence</th>
+            <th>Takeaway</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dynamic switching beats fixed interfaces</td>
+            <td>Single-action agents specialize in one category but lose balance across Mine Blocks, Kill Entities, and Craft Items.</td>
+            <td>Learning the interface choice is more robust than hard-coding it.</td>
+          </tr>
+          <tr>
+            <td>RL generalizes beyond the training set</td>
+            <td>Multi-turn RL is trained on 30 tasks but evaluated on more than 800 OpenHA tasks.</td>
+            <td>Action-space selection learned from limited online tasks transfers broadly.</td>
+          </tr>
+          <tr>
+            <td>STRL improves the final policy</td>
+            <td>Removing the single-turn RL stage weakens convergence and lowers OOD results, especially on Craft Items.</td>
+            <td>A local action-space warm start helps long-horizon RL discover better trajectories.</td>
+          </tr>
+          <tr>
+            <td>OOD robustness improves</td>
+            <td>The paper reports 78.8% OOD success on Craft Items and 49.1% across all OOD tasks for the full CrossHA model.</td>
+            <td>Heterogeneous actions reduce overfitting to one control style.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Behavior Analysis</h2>
     <div class="crossha-grid">
       <div class="crossha-card">
-        <h3>One Model</h3>
-        <p>A unified policy is trained for cross-level agentic actions.</p>
+        <h3>Kill Sheep</h3>
+        <p>
+          The agent first favors motion actions to search efficiently, then
+          mixes motion, grounding, and raw controls while approaching, and uses
+          more precise grounding or raw actions for the attack phase.
+        </p>
       </div>
       <div class="crossha-card">
-        <h3>Reinforcement Learning</h3>
-        <p>The work focuses on RL-based training for embodied Minecraft agents.</p>
+        <h3>Chop Tree</h3>
+        <p>
+          Static targets make coarse navigation effective early in the task.
+          Grounding actions become more useful once the model needs to target a
+          specific wood block.
+        </p>
       </div>
       <div class="crossha-card">
-        <h3>OpenHA Release</h3>
-        <p>Code is released through the CraftJarvis OpenHA repository.</p>
+        <h3>Craft Enchanting Table</h3>
+        <p>
+          GUI-heavy crafting relies on raw actions for stable repeated steps and
+          grounding actions for visually locating icons and item slots.
+        </p>
       </div>
+    </div>
+  </section>
+
+  <section class="crossha-section">
+    <h2>Why It Matters</h2>
+    <div class="crossha-callout">
+      <p>
+        CrossHA moves action-space switching from a hand-written engineering
+        choice into the model's learned policy. That makes the agent closer to a
+        generalist system: it can use high-level abstractions for speed, fall
+        back to lower-level control for precision, and adapt this choice within
+        a single trajectory.
+      </p>
     </div>
   </section>
 
   <section class="crossha-section">
     <h2>Resources</h2>
     <div class="crossha-grid">
-      <div class="crossha-resource">
+      <div class="crossha-card">
         <h3>Paper</h3>
         <p><a href="https://arxiv.org/abs/2512.09706">arXiv:2512.09706</a></p>
       </div>
-      <div class="crossha-resource">
-        <h3>Code</h3>
+      <div class="crossha-card">
+        <h3>Code and Models</h3>
         <p><a href="https://github.com/CraftJarvis/OpenHA">github.com/CraftJarvis/OpenHA</a></p>
       </div>
-      <div class="crossha-resource">
+      <div class="crossha-card">
         <h3>Team</h3>
         <p><a href="https://craftjarvis.github.io/">CraftJarvis</a></p>
       </div>
@@ -263,7 +544,7 @@ image:
   </section>
 
   <section class="crossha-section">
-    <h2>Citation</h2>
+    <h2>BibTeX</h2>
     <pre class="crossha-citation"><code>@inproceedings{he2026crossha,
   title     = {Training One Model to Master Cross-Level Agentic Actions via Reinforcement Learning},
   author    = {He, Kaichen and Wang, Zihao and Li, Muyao and Liu, Anji and Liang, Yitao},

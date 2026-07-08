@@ -7,7 +7,7 @@ toc: true
 ---
 
 {% include embed/project.html title='CrossHA'
-                              image='/assets/img/projects/crossha_art.png'
+                              image='/assets/img/projects/steve.png'
                               lqip=''
                               content='Training one model to master cross-level agentic actions via reinforcement learning'
                               url='/CrossHA/' %}
